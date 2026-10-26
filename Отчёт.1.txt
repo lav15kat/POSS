@@ -1,0 +1,42 @@
+Current configuration : 856 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Route
+!
+!
+!
+!
+!
+ip dhcp pool VLAl
+ network 192.168.2.0 255.255.255.0
+ default-router 192.168.2.1
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO2911/K9 sn FTX1524723K-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
